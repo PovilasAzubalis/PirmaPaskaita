@@ -1,31 +1,35 @@
-﻿using System;
-
-namespace SeptintaUzduotis_VidurinisKintamasis
+﻿namespace SeptintaUzduotis_VidurinisKintamasis
 {
-    public class Program
-    {
-        public static void Main(string[] args)
+        public class Program
         {
-            Random rnd = new Random();
-            int y1 = rnd.Next(0, 0);
-            int y2 = rnd.Next(0, 25);
-            int y3 = rnd.Next(0, 25);
-            Console.WriteLine();
-            Console.WriteLine($"y1: {y1} y2: {y2} y3: {y3}");
-            if ((y1 < y2 && y2 < y3) || (y3 < y2 && y2 < y1))
-            {
-                Console.WriteLine($"Vidurinis kintmasis yra :{y2}");
-            }
-            else if ((y2 < y1 && y1 < y3) || (y3 < y1 && y1 < y2))
-            {
-                Console.WriteLine($"Vidurinis kintmasis yra :{y1}");
-            }
-            else if (y1 == y2 || y2 == y3 || y3 == y1)
-                Console.WriteLine("Vidurinio kintamojo isvesti nepavyko: KINTAMUJU DUBLIKACIJA!");
-            else
-            {
-                Console.WriteLine($"Vidurinis kintmasis yra :{y3}");
-            }
+                public static void Main(string[] args)
+                {
+                        // Naudokite funkcija new Random(). Sukurkite tris kintamuosius ir naudodamiesi funkcija new Random()
+                        // jiems priskirkite atsitiktines reikšmes nuo 0 iki 25. Raskite ir atspausdinkite kintąmąjį
+                        // turintį vidurinę reikšmę.
+
+                        Random rnd = new Random();
+                        
+                        int y1 = rnd.Next(0, 0);
+                        int y2 = rnd.Next(0, 25);
+                        int y3 = rnd.Next(0, 25);
+                        Console.WriteLine();
+                        Console.WriteLine($"y1: {y1} y2: {y2} y3: {y3}");
+
+                        if ((y1 < y2 && y2 < y3) || (y3 < y2 && y2 < y1))
+                        {
+                                Console.WriteLine($"Vidurinis kintmasis yra :{y2}");
+                        }
+                        else if ((y2 < y1 && y1 < y3) || (y3 < y1 && y1 < y2))
+                        {
+                                Console.WriteLine($"Vidurinis kintmasis yra :{y1}");
+                        }
+                        else if (y1 == y2 || y2 == y3 || y3 == y1)
+                                Console.WriteLine("Vidurinio kintamojo isvesti nepavyko: KINTAMUJU DUBLIKACIJA!");
+                        else
+                        {
+                                Console.WriteLine($"Vidurinis kintmasis yra :{y3}");
+                        }
+                }
         }
-    }
 }
