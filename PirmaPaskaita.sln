@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1PirmaUzduotis_SveikinimoPrograma", "PirmaPaskaita\1PirmaUzduotis_SveikinimoPrograma.csproj", "{9865C92A-CFC6-40B4-854A-7B2C3BAB06C6}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2AntraUzduotis_AritmetinesOperacijos", "AntraUzduotis\2AntraUzduotis_AritmetinesOperacijos.csproj", "{6DAF03A8-52B7-4E96-95B9-A64B9E022F52}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3TreciaUzduotis_AmziausSkaiciavimas", "TreciaUzduotis_AmziausSkaiciavimas\3TreciaUzduotis_AmziausSkaiciavimas.csproj", "{3D9A7F74-E53E-43CD-AF67-AAC0FA2EA6B3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4KetvirtaUzduotis_TemperaturosKonversija", "KetvirtaUzduotis_TemperaturosKonversija\4KetvirtaUzduotis_TemperaturosKonversija.csproj", "{AF968926-3C5D-4150-9591-5473193D0FBB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5PenktaUzduotis_Prisistatymas", "PenktaUzduotis_Kintamieji_Ir_Salygos\5PenktaUzduotis_Prisistatymas.csproj", "{659DCD37-F79B-4F52-B4CA-F00D871A04D9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6SestaUzduotis_TeigiamasDviejuSkaiciuVidurkis", "SestaUzduotis_Prisistatymas\6SestaUzduotis_TeigiamasDviejuSkaiciuVidurkis.csproj", "{ADBB09CC-E9B6-4E05-BDFF-98A7876F61F0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7SeptintaUzduotis_VidurinisKintamasis", "7SeptintaUzduotis_\7SeptintaUzduotis_VidurinisKintamasis.csproj", "{1EAFDF4A-AFA8-4C10-8A0D-30679E0C1DED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8AstuntaUzduotis_ArGalimaSudarytiTrikampi", "8AstuntaUzduotis_ArGalimaSudarytiTrikampi\8AstuntaUzduotis_ArGalimaSudarytiTrikampi.csproj", "{61D3BECF-61BA-4F7F-AA42-2C972888B775}"
@@ -31,9 +19,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13TryliktaUzduotis_Laikrodi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14KeturioliktaUzduotis_MazejanciosReiksmesEiluteje", "14KeturioliktaUzduotis_MazejanciosReiksmesEiluteje\14KeturioliktaUzduotis_MazejanciosReiksmesEiluteje.csproj", "{F44F990E-B01E-4395-A10D-2648520CE998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15PenkioliktaUzduotis_SavaitesDienosPavadinimas", "15PenkiolyktaUzduotis_SavaitesDienosPavadinimas\15PenkioliktaUzduotis_SavaitesDienosPavadinimas.csproj", "{40CD9F54-FB95-4E29-B8E1-56C9B73C7AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15PenkioliktaUzduotis_SavaitesDienosPavadinimas", "15PenkiolyktaUzduotis_SavaitesDienosPavadinimas\15PenkioliktaUzduotis_SavaitesDienosPavadinimas.csproj", "{40CD9F54-FB95-4E29-B8E1-56C9B73C7AF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16SesioliktaUzduotis_IvestuDuomenuAtpazinimas", "16SesioliktaUzduotis_IvestuDuomenuAtpazinimas\16SesioliktaUzduotis_IvestuDuomenuAtpazinimas.csproj", "{4312DC5E-2049-4792-9221-2A55B4E2D57C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16SesioliktaUzduotis_IvestuDuomenuAtpazinimas", "16SesioliktaUzduotis_IvestuDuomenuAtpazinimas\16SesioliktaUzduotis_IvestuDuomenuAtpazinimas.csproj", "{4312DC5E-2049-4792-9221-2A55B4E2D57C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1PirmaUzduotis_SveikinimoPrograma", "1PirmaPaskaita\1PirmaUzduotis_SveikinimoPrograma.csproj", "{CFCCE5A9-D018-42B2-B83A-B4965D9C2E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2AntraUzduotis_AritmetinesOperacijos", "2AntraUzduotis\2AntraUzduotis_AritmetinesOperacijos.csproj", "{DBC28227-14B9-4A33-8384-15AC3969DABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3TreciaUzduotis_AmziausSkaiciavimas", "3TreciaUzduotis_AmziausSkaiciavimas\3TreciaUzduotis_AmziausSkaiciavimas.csproj", "{48C4F310-8507-452C-97E6-631F70D44881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4KetvirtaUzduotis_TemperaturosKonversija", "4KetvirtaUzduotis_TemperaturosKonversija\4KetvirtaUzduotis_TemperaturosKonversija.csproj", "{E8827884-02A7-458B-972D-55DB115C7C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5PenktaUzduotis_Prisistatymas", "5PenktaUzduotis_Kintamieji_Ir_Salygos\5PenktaUzduotis_Prisistatymas.csproj", "{76986BD2-15E7-4209-BB66-7530A888710F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6SestaUzduotis_TeigiamasDviejuSkaiciuVidurkis", "6SestaUzduotis_Prisistatymas\6SestaUzduotis_TeigiamasDviejuSkaiciuVidurkis.csproj", "{A2CAF7E2-D72D-4C0E-9041-447E7A600EBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,30 +41,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9865C92A-CFC6-40B4-854A-7B2C3BAB06C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9865C92A-CFC6-40B4-854A-7B2C3BAB06C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9865C92A-CFC6-40B4-854A-7B2C3BAB06C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9865C92A-CFC6-40B4-854A-7B2C3BAB06C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DAF03A8-52B7-4E96-95B9-A64B9E022F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DAF03A8-52B7-4E96-95B9-A64B9E022F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DAF03A8-52B7-4E96-95B9-A64B9E022F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DAF03A8-52B7-4E96-95B9-A64B9E022F52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D9A7F74-E53E-43CD-AF67-AAC0FA2EA6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D9A7F74-E53E-43CD-AF67-AAC0FA2EA6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D9A7F74-E53E-43CD-AF67-AAC0FA2EA6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D9A7F74-E53E-43CD-AF67-AAC0FA2EA6B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF968926-3C5D-4150-9591-5473193D0FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF968926-3C5D-4150-9591-5473193D0FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF968926-3C5D-4150-9591-5473193D0FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF968926-3C5D-4150-9591-5473193D0FBB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{659DCD37-F79B-4F52-B4CA-F00D871A04D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{659DCD37-F79B-4F52-B4CA-F00D871A04D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{659DCD37-F79B-4F52-B4CA-F00D871A04D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{659DCD37-F79B-4F52-B4CA-F00D871A04D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ADBB09CC-E9B6-4E05-BDFF-98A7876F61F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADBB09CC-E9B6-4E05-BDFF-98A7876F61F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADBB09CC-E9B6-4E05-BDFF-98A7876F61F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADBB09CC-E9B6-4E05-BDFF-98A7876F61F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EAFDF4A-AFA8-4C10-8A0D-30679E0C1DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EAFDF4A-AFA8-4C10-8A0D-30679E0C1DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EAFDF4A-AFA8-4C10-8A0D-30679E0C1DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,6 +81,30 @@ Global
 		{4312DC5E-2049-4792-9221-2A55B4E2D57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4312DC5E-2049-4792-9221-2A55B4E2D57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4312DC5E-2049-4792-9221-2A55B4E2D57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCCE5A9-D018-42B2-B83A-B4965D9C2E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCCE5A9-D018-42B2-B83A-B4965D9C2E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCCE5A9-D018-42B2-B83A-B4965D9C2E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCCE5A9-D018-42B2-B83A-B4965D9C2E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC28227-14B9-4A33-8384-15AC3969DABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC28227-14B9-4A33-8384-15AC3969DABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC28227-14B9-4A33-8384-15AC3969DABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC28227-14B9-4A33-8384-15AC3969DABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C4F310-8507-452C-97E6-631F70D44881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C4F310-8507-452C-97E6-631F70D44881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C4F310-8507-452C-97E6-631F70D44881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C4F310-8507-452C-97E6-631F70D44881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8827884-02A7-458B-972D-55DB115C7C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8827884-02A7-458B-972D-55DB115C7C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8827884-02A7-458B-972D-55DB115C7C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8827884-02A7-458B-972D-55DB115C7C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76986BD2-15E7-4209-BB66-7530A888710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76986BD2-15E7-4209-BB66-7530A888710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76986BD2-15E7-4209-BB66-7530A888710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76986BD2-15E7-4209-BB66-7530A888710F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CAF7E2-D72D-4C0E-9041-447E7A600EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CAF7E2-D72D-4C0E-9041-447E7A600EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CAF7E2-D72D-4C0E-9041-447E7A600EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CAF7E2-D72D-4C0E-9041-447E7A600EBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
